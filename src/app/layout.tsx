@@ -1,3 +1,4 @@
+import Footer from "@/components/layout/footer";
 import Header from "@/components/layout/header/Header";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
@@ -31,6 +32,7 @@ export default function RootLayout({
 			>
 				<Header />
 				<main className="container">{children}</main>
+				<Footer />
 			</body>
 		</html>
 	);
